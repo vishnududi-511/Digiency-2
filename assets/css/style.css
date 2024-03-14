@@ -219,8 +219,131 @@
     width: 100%;
     padding: 15px 0;
     background-color: var(--color-white);
+    z-index: 3;
 }
 
+/*-------------- section-1-------------- */
+.sec-1-heading {
+    font-family: Work Sans;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-grey);
+}
+
+.sec-1-heading-orange {
+    font-family: Work Sans;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-orange);
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.sec-1-para {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-light-grey);
+}
+
+.contact-us {
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-white);
+    background-color: var(--color-orange);
+    border-radius: 5px;
+    border: 1px solid var(--color-orange);
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    padding: 12px 20px 12px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-us:hover {
+    color: var(--color-orange);
+    background-color: var(--color-white);
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.svg-box {
+    width: 35px;
+    height: 35px;
+    background-color: var(--color-white);
+    cursor: pointer;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.svg-box:hover {
+    background-color: var(--color-orange);
+}
+
+.svg-box:hover span path {
+    fill: var(--color-white);
+}
+
+.sec-1 {
+    overflow: hidden;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.svg-parent {
+    position: absolute;
+    right: -10%;
+    transform: translateY(-50%);
+    top: 40%;
+}
+
+.sec-1:hover .svg-parent {
+    right: 0;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
 
 @media (min-width:992px) {
     .digi-nav {
@@ -254,6 +377,43 @@
         position: relative;
         color: var(--color-grey);
     }
+
+    .lg-mb-50 {
+        margin-bottom: 50px !important;
+    }
+
+    .lg-col-7 {
+        width: 58.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .lg-col-5 {
+        width: 41.67%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .sec-1-heading {
+        font-family: Work Sans;
+        font-size: 48px !important;
+        font-weight: 700 !important;
+        line-height: 59px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-grey);
+    }
+
+    .sec-1-heading-orange {
+        font-family: Work Sans;
+        font-size: 48px !important;
+        font-weight: 700 !important;
+        line-height: 59px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-orange);
+    }
+
 }
 
 @media (min-width:768px) {
@@ -289,6 +449,74 @@
         color: var(--color-grey);
     }
 
+    /* sec-1 */
+
+    .sec-1-heading {
+
+        font-family: Work Sans;
+        font-size: 39px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-grey);
+    }
+
+    .sec-1-heading-orange {
+        font-family: Work Sans;
+        font-size: 39px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-orange);
+    }
+
+    .sec-1-para {
+        font-family: Work Sans;
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-light-grey);
+    }
+
+    .md-mb-25 {
+        margin-bottom: 25px;
+    }
+
+    .sm-col-6 {
+        max-width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .md-flex-direction-row {
+        flex-direction: row;
+    }
+
+    .md-mt-0 {
+        margin-top: 0;
+    }
+
+    .md-text-align-unset {
+        text-align: unset;
+    }
+
+    .svg-box {
+        width: 40px;
+        height: 40px;
+        background-color: var(--color-white);
+        cursor: pointer;
+    }
+
+    .svg-parent {
+        position: absolute;
+        right: -10%;
+        transform: translateY(-50%);
+        top: 50%;
+    }
 }
 
 @media (min-width:576px) {}
