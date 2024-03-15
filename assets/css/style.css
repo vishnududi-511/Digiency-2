@@ -350,7 +350,7 @@
     padding-bottom: 70px;
 }
 
-/* --------------------section-2----------------- */
+/* ----------------------------section-2---------------------------- */
 .section-small-heading {
     font-family: Work Sans;
     font-size: 16px;
@@ -547,6 +547,52 @@
     margin-top: 30px;
 }
 
+/* ------------------------------section-3----------------------------------- */
+.sec-3-para {
+    font-family: Work Sans;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-light-grey);
+}
+
+.sec-3-card {
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    padding: 70px 40px 70px 40px;
+    background-color: var(--color-white);
+}
+
+.sec-3-card:hover {
+    box-shadow: 0px 0px 13px 13px rgba(0, 0, 0, 0.1);
+}
+
+.sec-3-card-no {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey);
+}
+
+.sec-3-card-text {
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-light-grey);
+    text-wrap: nowrap;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
 @media (min-width:992px) {
     .digi-nav {
         font-family: var(--ff-work_sans) !important;
@@ -706,6 +752,48 @@
         box-shadow: 0px 1px 10px 0px #0000001A;
         padding: 25px 20px 25px 20px !important;
         height: 100%;
+    }
+
+    /* sec-3 */
+    .sec-3-para {
+        font-family: Work Sans;
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-light-grey);
+        max-width: 570px !important;
+    }
+
+    .sec-3-card {
+        box-shadow: 0px 1px 10px 0px #0000001A;
+        padding: 70px 40px 70px 40px;
+    }
+
+    .sec-3-card-no {
+        font-family: Work Sans;
+        font-size: 48px !important;
+        font-weight: 700 !important;
+        line-height: 59px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-grey);
+    }
+
+    .sec-3-card-text {
+        font-family: Work Sans;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        line-height: 25px !important;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-light-grey);
+        text-wrap: nowrap;
+    }
+
+    .lg-mt-25 {
+        margin-top: 25px;
     }
 
 }
@@ -918,6 +1006,39 @@
     .md-mt-60 {
         margin-top: 60px;
     }
+
+    /* sec-3 */
+    .sec-3-para {
+        font-family: Work Sans;
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-light-grey);
+        max-width: 332px;
+    }
+
+    .sec-3-card-no {
+        font-family: Work Sans;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-grey);
+    }
+
+    .sec-3-card-text {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-light-grey);
+        text-wrap: nowrap;
+    }
 }
 
 @media (min-width:576px) {
@@ -929,6 +1050,10 @@
 
     .sm-mt-0 {
         margin-top: 0;
+    }
+
+    .sm-mt-24 {
+        margin-top: 24px;
     }
 }
 
