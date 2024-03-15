@@ -593,6 +593,85 @@
     margin-top: 24px;
 }
 
+/* --------------------section-4------------------- */
+.heading-align-center {
+    text-align: center !important;
+}
+
+/* cards */
+.sec-4-box {
+    background: var(--color-white);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.sec-4-box:hover {
+    box-shadow: 0px 0px 13px 13px rgba(0, 0, 0, 0.1);
+}
+
+.sec-4-box-heading {
+    color: #000;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 123.6%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sec-4-box-para {
+    color: var(--color-light-grey);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150.6%;
+    text-align: center;
+    padding: 10px;
+}
+
+.sec-4-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--color-white);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.sec-4-image-box {
+    overflow: hidden;
+}
+
+
+.sec-4-box:hover .sec-4-svg-parent-box {
+    right: 0;
+}
+
+.sec-4-svg-parent-box {
+    position: absolute;
+    top: 50%;
+    right: -41px;
+    transition: all 200ms linear;
+    transform: translateY(-50%);
+}
+
+.sec-4-icon:hover {
+    background-color: #FF5300;
+    cursor: pointer;
+    box-shadow: 1px 7px 6px rgba(255, 83, 0, 0.50);
+}
+
+.sec-4-icon:hover svg path {
+    fill: #fff;
+
+}
+
+.overflow-auto {
+    overflow-x: auto;
+}
+
 @media (min-width:992px) {
     .digi-nav {
         font-family: var(--ff-work_sans) !important;
@@ -1054,6 +1133,10 @@
 
     .sm-mt-24 {
         margin-top: 24px;
+    }
+
+    .sm-d-none {
+        display: none;
     }
 }
 
