@@ -12,7 +12,7 @@ $('.slider-1').slick({
   speed: 300,
   slidesToShow: 2,
     slidesToScroll: 1,
-  autoplay:false,
+  autoplay:true,
   responsive: [
     {
       breakpoint: 992,
@@ -42,7 +42,7 @@ $('.slider-2').slick({
   speed: 300,
   slidesToShow: 2,
     slidesToScroll: 1,
-  autoplay:false,
+  autoplay:true,
   responsive: [
     {
       breakpoint: 992,
