@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition: all 300ms linear;
+}
+
 :root {
     --font-size-10: 10px;
     --font-size-12: 12px;
@@ -12,6 +21,7 @@
     --font-size-23: 23px;
     --font-size-25: 25px;
     --font-size-30: 30px;
+    --font-size-31: 31px;
     --font-size-35: 35px;
     --font-size-39: 39px;
     --font-size-42: 42px;
@@ -43,15 +53,6 @@
     font-family: var(--ff-poppins);
     font-weight: 700;
     font-size: 60px;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    transition: all 300ms linear;
 }
 
 .container {
@@ -181,7 +182,7 @@
 .ency-nav {
     font-family: var(--ff-work_sans);
     font-size: var(--font-size-25);
-    font-weight: 500;
+    font-weight: var(--font-weight-md);
     line-height: 31px;
     letter-spacing: 0em;
     text-align: center;
@@ -237,9 +238,9 @@
 
 /*-------------- section-1-------------- */
 .sec-1-heading {
-    font-family: Work Sans;
-    font-size: 31px;
-    font-weight: 600;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-31);
+    font-weight: var(--font-weight-lg);
     line-height: 39px;
     letter-spacing: 0em;
     text-align: center;
@@ -247,9 +248,9 @@
 }
 
 .sec-1-heading-orange {
-    font-family: Work Sans;
-    font-size: 31px;
-    font-weight: 600;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-31);
+    font-weight: var(--font-weight-lg);
     line-height: 39px;
     letter-spacing: 0em;
     text-align: center;
@@ -261,8 +262,8 @@
 }
 
 .sec-1-para {
-    font-family: Work Sans;
-    font-size: 16px;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
     font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
@@ -271,9 +272,9 @@
 }
 
 .contact-us {
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
     line-height: 25px;
     letter-spacing: 0em;
     text-align: center;
@@ -365,8 +366,8 @@
 
 /* ----------------------------section-2---------------------------- */
 .section-small-heading {
-    font-family: Work Sans;
-    font-size: 16px;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
     font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
@@ -375,9 +376,9 @@
 }
 
 .section-big-heading {
-    font-family: Work Sans;
-    font-size: 25px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-md);
     line-height: 31px;
     letter-spacing: 0em;
     text-align: center;
@@ -385,9 +386,9 @@
 }
 
 .section-big-heading-orange {
-    font-family: Work Sans;
-    font-size: 25px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-md);
     line-height: 31px;
     letter-spacing: 0em;
     text-align: center;
@@ -396,7 +397,7 @@
 }
 
 .sec-2-para {
-    font-family: Work Sans;
+    font-family: var(--ff-work_sans);
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-sm);
     line-height: 24px;
@@ -437,9 +438,9 @@
 }
 
 .card-font {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
@@ -448,9 +449,9 @@
 }
 
 .card-font-2 {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
@@ -459,9 +460,9 @@
 }
 
 .card-font-3 {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
@@ -470,9 +471,9 @@
 }
 
 .card-font-4 {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
@@ -562,7 +563,7 @@
 
 /* ------------------------------section-3----------------------------------- */
 .sec-3-para {
-    font-family: Work Sans;
+    font-family: var(--ff-work_sans);
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-sm);
     line-height: 24px;
@@ -582,9 +583,9 @@
 }
 
 .sec-3-card-no {
-    font-family: Work Sans;
-    font-size: 48px;
-    font-weight: 700;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-48);
+    font-weight: var(--font-weight-xl);
     line-height: 59px;
     letter-spacing: 0em;
     text-align: left;
@@ -592,9 +593,9 @@
 }
 
 .sec-3-card-text {
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
@@ -623,9 +624,9 @@
 
 .sec-4-box-heading {
     color: #000;
-    font-family: "Work Sans";
-    font-size: 20px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
     line-height: 123.6%;
     text-align: center;
     width: 100%;
@@ -634,9 +635,9 @@
 
 .sec-4-box-para {
     color: var(--color-light-grey);
-    font-family: "Work Sans";
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 150.6%;
     text-align: center;
     padding: 10px;
@@ -691,9 +692,9 @@
 }
 
 .sec-5-scroll-font {
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
@@ -720,9 +721,9 @@
 }
 
 .sec-5-orange-font {
-    font-family: Work Sans;
-    font-size: 25px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-md);
     line-height: 31px;
     letter-spacing: 0em;
     text-align: left;
@@ -734,9 +735,9 @@
 }
 
 .sec-5-orange-font-2 {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -762,9 +763,9 @@
 }
 
 .slider-1-heading {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -772,9 +773,9 @@
 }
 
 .slider-1-para {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -851,9 +852,9 @@
 }
 
 .slider-2-small-h {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -861,9 +862,9 @@
 }
 
 .slider-2-heading {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -879,9 +880,9 @@
 }
 
 .slider-2-profile-1 {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -889,9 +890,9 @@
 }
 
 .slider-2-profile-2 {
-    font-family: Work Sans;
-    font-size: 13px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-13);
+    font-weight: var(--font-weight-sm);
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
@@ -962,9 +963,9 @@
 }
 
 .sec-8-para {
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
@@ -972,9 +973,9 @@
 }
 
 .sec-8-h1 {
-    font-family: Work Sans;
-    font-size: 25px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-md);
     line-height: 31px;
     letter-spacing: 0em;
     text-align: left;
@@ -982,9 +983,9 @@
 }
 
 .sec-8-h2 {
-    font-family: Work Sans;
-    font-size: 31px;
-    font-weight: 600;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-31);
+    font-weight: var(--font-weight-lg);
     line-height: 39px;
     letter-spacing: 0em;
     text-align: left;
@@ -997,9 +998,9 @@
 
 .sec-8-orange {
     color: var(--color-orange);
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
@@ -1022,9 +1023,9 @@
 .input-sec-8 {
     outline: none;
     padding: 18px;
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -1035,9 +1036,9 @@
 }
 
 .sec-8-heading {
-    font-family: Work Sans;
-    font-size: 31px;
-    font-weight: 600;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-31);
+    font-weight: var(--font-weight-lg);
     line-height: 39px;
     letter-spacing: 0em;
     text-align: left;
@@ -1045,9 +1046,9 @@
 }
 
 .sec-8-heading-orange {
-    font-family: Work Sans;
-    font-size: 31px;
-    font-weight: 600;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-31);
+    font-weight: var(--font-weight-lg);
     line-height: 39px;
     letter-spacing: 0em;
     text-align: left;
@@ -1055,9 +1056,9 @@
 }
 
 .send-message {
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
     line-height: 25px;
     letter-spacing: 0em;
     text-align: center;
@@ -1084,9 +1085,9 @@
 /*-------------------footer---------------------------  */
 
 .digi-foot {
-    font-family: Work Sans;
-    font-size: 31px;
-    font-weight: 600;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-31);
+    font-weight: var(--font-weight-lg);
     line-height: 39px;
     letter-spacing: 0em;
     text-align: left;
@@ -1094,9 +1095,9 @@
 }
 
 .ency-foot {
-    font-family: Work Sans;
-    font-size: 31px;
-    font-weight: 600;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-31);
+    font-weight: var(--font-weight-lg);
     line-height: 39px;
     letter-spacing: 0em;
     text-align: left;
@@ -1122,9 +1123,9 @@
 }
 
 .footer-font-1 {
-    font-family: Work Sans;
-    font-size: 31px;
-    font-weight: 600;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-31);
+    font-weight: var(--font-weight-lg);
     line-height: 39px;
     letter-spacing: 0em;
     text-align: left;
@@ -1132,9 +1133,9 @@
 }
 
 .footer-font-2 {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -1146,9 +1147,9 @@
     border: none;
     padding: 18px;
     background: transparent;
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -1175,6 +1176,10 @@
     width: 30%;
 }
 
+.w-80 {
+    width: 80%;
+}
+
 .svg-box-footer .d-flex {
     width: 18px;
 }
@@ -1185,9 +1190,9 @@
 }
 
 .copyright {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--ff-work_sans);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
@@ -1223,6 +1228,10 @@
 
 .scroll-button:hover path {
     fill: var(--color-orange);
+}
+
+.gap-15 {
+    gap: 15px;
 }
 
 @media (min-width:992px) {
@@ -1275,9 +1284,9 @@
     }
 
     .sec-1-heading {
-        font-family: Work Sans;
-        font-size: 48px !important;
-        font-weight: 700 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-48) !important;
+        font-weight: var(--font-weight-xl) !important;
         line-height: 59px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1285,9 +1294,9 @@
     }
 
     .sec-1-heading-orange {
-        font-family: Work Sans;
-        font-size: 48px !important;
-        font-weight: 700 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-48) !important;
+        font-weight: var(--font-weight-xl) !important;
         line-height: 59px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1301,9 +1310,9 @@
 
 
     .section-big-heading {
-        font-family: Work Sans;
-        font-size: 39px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-39) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 48px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1311,9 +1320,9 @@
     }
 
     .section-big-heading-orange {
-        font-family: Work Sans;
-        font-size: 39px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-39) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 48px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1321,7 +1330,7 @@
     }
 
     .sec-2-para {
-        font-family: Work Sans;
+        font-family: var(--ff-work_sans);
         font-size: var(--font-size-16);
         font-weight: var(--font-weight-sm);
         line-height: 24px;
@@ -1388,7 +1397,7 @@
 
     /* sec-3 */
     .sec-3-para {
-        font-family: Work Sans;
+        font-family: var(--ff-work_sans);
         font-size: var(--font-size-16);
         font-weight: var(--font-weight-sm);
         line-height: 24px;
@@ -1404,9 +1413,9 @@
     }
 
     .sec-3-card-no {
-        font-family: Work Sans;
-        font-size: 48px !important;
-        font-weight: 700 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-48) !important;
+        font-weight: var(--font-weight-xl) !important;
         line-height: 59px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1414,9 +1423,9 @@
     }
 
     .sec-3-card-text {
-        font-family: Work Sans;
-        font-size: 20px !important;
-        font-weight: 500 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-20) !important;
+        font-weight: var(--font-weight-md) !important;
         line-height: 25px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1458,9 +1467,9 @@
     }
 
     .slider-1-heading {
-        font-family: Work Sans;
-        font-size: 25px !important;
-        font-weight: 500 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-25) !important;
+        font-weight: var(--font-weight-md) !important;
         line-height: 31px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1470,9 +1479,9 @@
     /* sectoin-8 */
 
     .sec-8-h1 {
-        font-family: Work Sans;
-        font-size: 25px !important;
-        font-weight: 500 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-25) !important;
+        font-weight: var(--font-weight-md) !important;
         line-height: 31px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1480,9 +1489,9 @@
     }
 
     .sec-8-h2 {
-        font-family: Work Sans;
-        font-size: 31px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-31) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 39px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1502,9 +1511,9 @@
     }
 
     .sec-8-para {
-        font-family: Work Sans;
-        font-size: 20px !important;
-        font-weight: 500 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-20) !important;
+        font-weight: var(--font-weight-md) !important;
         line-height: 25px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1513,18 +1522,18 @@
 
     .sec-8-orange {
         color: var(--color-orange);
-        font-family: Work Sans;
-        font-size: 20px !important;
-        font-weight: 500 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-20) !important;
+        font-weight: var(--font-weight-md) !important;
         line-height: 25px !important;
         letter-spacing: 0em;
         text-align: left;
     }
 
     .sec-8-heading {
-        font-family: Work Sans;
-        font-size: 31px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-31) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 39px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1532,9 +1541,9 @@
     }
 
     .sec-8-heading-orange {
-        font-family: Work Sans;
-        font-size: 31px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-31) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 39px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1543,9 +1552,9 @@
 
     /* ---footer------- */
     .digi-foot {
-        font-family: Work Sans;
-        font-size: 39px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-39) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 48px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1553,9 +1562,9 @@
     }
 
     .ency-foot {
-        font-family: Work Sans;
-        font-size: 39px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-39) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 48px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1563,9 +1572,9 @@
     }
 
     .footer-font-1 {
-        font-family: Work Sans;
-        font-size: 39px !important;
-        font-weight: 600 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-39) !important;
+        font-weight: var(--font-weight-lg) !important;
         line-height: 48px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1573,9 +1582,9 @@
     }
 
     .footer-font-2 {
-        font-family: Work Sans;
-        font-size: 16px !important;
-        font-weight: 400 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-16) !important;
+        font-weight: var(--font-weight-sm) !important;
         line-height: 24px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1587,9 +1596,9 @@
         border: none;
         padding: 18px;
         background: transparent;
-        font-family: Work Sans;
-        font-size: 16px !important;
-        font-weight: 400 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-16) !important;
+        font-weight: var(--font-weight-sm) !important;
         line-height: 24px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1619,9 +1628,9 @@
     }
 
     .slider-2-small-h {
-        font-family: Work Sans;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
@@ -1629,9 +1638,9 @@
     }
 
     .slider-2-heading {
-        font-family: Work Sans;
-        font-size: 25px !important;
-        font-weight: 500 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-25) !important;
+        font-weight: var(--font-weight-md) !important;
         line-height: 31px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1639,9 +1648,9 @@
     }
 
     .slider-2-profile-1 {
-        font-family: Work Sans;
-        font-size: 20px !important;
-        font-weight: 500 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-20) !important;
+        font-weight: var(--font-weight-md) !important;
         line-height: 25px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1649,9 +1658,9 @@
     }
 
     .slider-2-profile-2 {
-        font-family: Work Sans;
-        font-size: 16px !important;
-        font-weight: 400 !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-16) !important;
+        font-weight: var(--font-weight-sm) !important;
         line-height: 24px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1668,6 +1677,10 @@
 
     .max-w-236 {
         max-width: unset !important;
+    }
+
+    .lg-gap-20 {
+        gap: 20px;
     }
 }
 
@@ -1708,9 +1721,9 @@
 
     .sec-1-heading {
 
-        font-family: Work Sans;
-        font-size: 39px;
-        font-weight: 600;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-39);
+        font-weight: var(--font-weight-lg);
         line-height: 48px;
         letter-spacing: 0em;
         text-align: left;
@@ -1718,9 +1731,9 @@
     }
 
     .sec-1-heading-orange {
-        font-family: Work Sans;
-        font-size: 39px;
-        font-weight: 600;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-39);
+        font-weight: var(--font-weight-lg);
         line-height: 48px;
         letter-spacing: 0em;
         text-align: left;
@@ -1728,8 +1741,8 @@
     }
 
     .sec-1-para {
-        font-family: Work Sans;
-        font-size: 16px !important;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-16) !important;
         font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
@@ -1788,9 +1801,9 @@
     /*----- section-2--------- */
 
     .section-big-heading {
-        font-family: Work Sans;
-        font-size: 31px;
-        font-weight: 600;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-31);
+        font-weight: var(--font-weight-lg);
         line-height: 39px;
         letter-spacing: 0em;
         text-align: left;
@@ -1798,9 +1811,9 @@
     }
 
     .section-big-heading-orange {
-        font-family: Work Sans;
-        font-size: 31px;
-        font-weight: 600;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-31);
+        font-weight: var(--font-weight-lg);
         line-height: 39px;
         letter-spacing: 0em;
         text-align: left;
@@ -1808,7 +1821,7 @@
     }
 
     .sec-2-para {
-        font-family: Work Sans;
+        font-family: var(--ff-work_sans);
         font-size: var(--font-size-16);
         font-weight: var(--font-weight-sm);
         line-height: 24px;
@@ -1888,7 +1901,7 @@
 
     /* sec-3 */
     .sec-3-para {
-        font-family: Work Sans;
+        font-family: var(--ff-work_sans);
         font-size: var(--font-size-16);
         font-weight: var(--font-weight-sm);
         line-height: 24px;
@@ -1899,9 +1912,9 @@
     }
 
     .sec-3-card-no {
-        font-family: Work Sans;
-        font-size: 25px;
-        font-weight: 500;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-md);
         line-height: 31px;
         letter-spacing: 0em;
         text-align: left;
@@ -1909,9 +1922,9 @@
     }
 
     .sec-3-card-text {
-        font-family: Work Sans;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
@@ -1944,9 +1957,9 @@
     } */
 
     .slider-1-heading {
-        font-family: Work Sans;
-        font-size: 20px;
-        font-weight: 500;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
         line-height: 25px;
         letter-spacing: 0em;
         text-align: left;
@@ -1959,9 +1972,9 @@
 
     /* section-8 */
     .sec-8-h1 {
-        font-family: Work Sans;
-        font-size: 20px;
-        font-weight: 500;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
         line-height: 25px;
         letter-spacing: 0em;
         text-align: left;
@@ -1969,9 +1982,9 @@
     }
 
     .sec-8-h2 {
-        font-family: Work Sans;
-        font-size: 25px;
-        font-weight: 500;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-md);
         line-height: 31px;
         letter-spacing: 0em;
         text-align: left;
@@ -1991,9 +2004,9 @@
     }
 
     .sec-8-para {
-        font-family: Work Sans;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
@@ -2002,18 +2015,18 @@
 
     .sec-8-orange {
         color: var(--color-orange);
-        font-family: Work Sans;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
     }
 
     .sec-8-heading {
-        font-family: Work Sans;
-        font-size: 25px;
-        font-weight: 500;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-md);
         line-height: 31px;
         letter-spacing: 0em;
         text-align: left;
@@ -2021,9 +2034,9 @@
     }
 
     .sec-8-heading-orange {
-        font-family: Work Sans;
-        font-size: 25px;
-        font-weight: 500;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-md);
         line-height: 31px;
         letter-spacing: 0em;
         text-align: left;
@@ -2032,9 +2045,9 @@
 
     /* ------------footer--------------- */
     .digi-foot {
-        font-family: Work Sans;
-        font-size: 25px;
-        font-weight: 700;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-xl);
         line-height: 31px;
         letter-spacing: 0em;
         text-align: left;
@@ -2042,9 +2055,9 @@
     }
 
     .ency-foot {
-        font-family: Work Sans;
-        font-size: 25px;
-        font-weight: 500;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-md);
         line-height: 31px;
         letter-spacing: 0em;
         text-align: left;
@@ -2052,9 +2065,9 @@
     }
 
     .footer-font-1 {
-        font-family: Work Sans;
-        font-size: 25px;
-        font-weight: 500;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-md);
         line-height: 31px;
         letter-spacing: 0em;
         text-align: left;
@@ -2062,9 +2075,9 @@
     }
 
     .footer-font-2 {
-        font-family: Work Sans;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
@@ -2076,9 +2089,9 @@
         border: none;
         padding: 14px 6px 14px 6px;
         background: transparent;
-        font-family: Work Sans;
-        font-size: 13px;
-        font-weight: 400;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-13);
+        font-weight: var(--font-weight-sm);
         line-height: 16px;
         letter-spacing: 0em;
         text-align: left;
@@ -2108,9 +2121,9 @@
     }
 
     .slider-2-small-h {
-        font-family: Work Sans;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
@@ -2118,9 +2131,9 @@
     }
 
     .slider-2-heading {
-        font-family: Work Sans;
-        font-size: 20px;
-        font-weight: 500;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
         line-height: 25px;
         letter-spacing: 0em;
         text-align: left;
@@ -2128,9 +2141,9 @@
     }
 
     .slider-2-profile-1 {
-        font-family: Work Sans;
-        font-size: 20px;
-        font-weight: 500;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
         line-height: 25px;
         letter-spacing: 0em;
         text-align: left;
@@ -2138,9 +2151,9 @@
     }
 
     .slider-2-profile-2 {
-        font-family: Work Sans;
-        font-size: 13px;
-        font-weight: 400;
+        font-family: var(--ff-work_sans);
+        font-size: var(--font-size-13);
+        font-weight: var(--font-weight-sm);
         line-height: 16px;
         letter-spacing: 0em;
         text-align: left;
@@ -2191,8 +2204,12 @@
         flex-direction: row;
     }
 
-    .sm.w-70 {
+    .sm-w-70 {
         width: 70%;
+    }
+
+    .sm-w-60 {
+        width: 60%;
     }
 
     .sm-mt-20 {

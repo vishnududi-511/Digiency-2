@@ -24,7 +24,7 @@ $('.slider-1').slick({
       }
     },
     {
-      breakpoint: 780,
+      breakpoint: 750,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -54,7 +54,7 @@ $('.slider-2').slick({
       }
     },
     {
-      breakpoint: 740,
+      breakpoint: 750,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
