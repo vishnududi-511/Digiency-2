@@ -54,7 +54,7 @@ $('.slider-2').slick({
       }
     },
     {
-      breakpoint: 780,
+      breakpoint: 740,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -65,3 +65,19 @@ $('.slider-2').slick({
     // instead of a settings object
   ]
 });
+
+let scroll_button = document.querySelector('.scroll-button')
+
+function backtoTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+}
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 200) {
+        scroll_button.setAttribute("style", "display: flex;")
+    } else {
+        scroll_button.setAttribute("style", "display: none;")
+
+    }
+
+})
